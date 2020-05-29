@@ -42,17 +42,12 @@ Logistic Regression: 94.98%
 The accuracy scores are high but the literature over the imbalanced classes states that the accuracy is a misleading metric for this kind of datasets. Accuracy can still be high while the model would be doing an awful job at predicting the minority class. 
 
 
-  
-
 
 Confusion matrices also tells us that models make predictions mainly for majority class (0), omitting the minority class.   
 
 I will apply resampling techniques to create balanced classes. 
 
 Resampling
-
- 
-
 
 Oversampling is the process of duplicating random observations from minority class to create a balanced dataset. It is prone to overfitting. 
 
@@ -62,7 +57,7 @@ I apply these two strategies to the dataset and run the models again.
 
  
 
-As we can see from the table, the model with the best scores is the Random Forest Classifier with the oversampled dataset. On the other hand, the accuracy score is close to 1 which signals that the model most probably overfits. Therefore, I decide to use the second-best model Random Forest Classifier with undersampled dataset. Even though Its test accuracy is 64% and less than desired, it is still better than the majority baseline of 50%. I tried some feature engineering, but I was unable to increase the effectiveness. 
+The model with the best scores is the Random Forest Classifier with the oversampled dataset. On the other hand, the accuracy score is close to 1 which signals that the model most probably overfits. Therefore, I decide to use the second-best model Random Forest Classifier with undersampled dataset. Even though Its test accuracy is 64% and less than desired, it is still better than the majority baseline of 50%. I tried some feature engineering, but I was unable to increase the effectiveness. 
 
 
  
