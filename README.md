@@ -1,5 +1,6 @@
 # DS-Unit-2-Buildweek-Project
 This is a repository for a project to use the predictive modeling.
+The CSV file of the dataset is available at'https://www.kaggle.com/floser/french-motor-claims-datasets-fremtpl2freq?select=freMTPL2freq.csv'
 
 Predicting the Insurance Claims
 
