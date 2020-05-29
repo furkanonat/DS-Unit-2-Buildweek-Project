@@ -1,5 +1,5 @@
 # DS-Unit-2-Buildweek-Project
-Tis is project repository using the techniques for applied modelling. 
+This is a repository for a project to use the predictive modeling.
 
 Predicting the Insurance Claims
 
